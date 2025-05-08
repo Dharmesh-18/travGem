@@ -7,7 +7,7 @@ interface Props {
 }
 
 const Header = ({ title, description }: Props) => {
-  const loction = useLocation();
+  const location = useLocation();
 
   return (
     <header className="header">
